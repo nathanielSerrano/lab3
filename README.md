@@ -4,7 +4,8 @@ Nathaniel - Project Manager
 
 Joseph - Subtask 1
 
-Jonah - Subtask 2
+Jonah - Subtask 3
 
-Vivek - Subtask 3
+Vivek - Subtask 2
+
 
