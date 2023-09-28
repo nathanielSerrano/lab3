@@ -2,6 +2,7 @@
  * XMLValidatorTester, class to check correctness of myIXMLValidator using 5 XML
  * Strings, returns number of correct results
  * 
+ * @version September 27 2023
  * @author Jonah
  */
 public class XMLValidatorTester {
@@ -31,7 +32,7 @@ public class XMLValidatorTester {
 			}
 		}
 		// return number of correct strings
-		return correctCount;
+		return correctCount / 5.0;
 	}
 
 }
