@@ -1,7 +1,7 @@
 /**
  *@author Vivek Reddy Bhimavarapu
  */
-import java.util.Stack;
+//import java.util.Stack;
 
 // MyXMLValidator class implementing the IXMLValidator interface
 public class MyXMLValidator implements IXMLValidator {
@@ -11,7 +11,7 @@ public class MyXMLValidator implements IXMLValidator {
     public boolean validateXML(IStack stack, String inputXML) {
         
         // Create a stack to store opening tags
-        Stack<String> tagStack = new Stack<>();
+        IStack tagStack = new myStack();
         
         // Convert the input XML string to a character array for traversal
         char[] chars = inputXML.toCharArray();
